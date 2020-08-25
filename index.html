@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<title>Judul halaman</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<a href="#hidden" class="hidden">Skip to navigation</a>
+
+  
+	<header class="header" role="banner" tabindex="0">
+    
+    <a href="#">Nama Situs Web</a>
+    
+	</header>
+  
+  <nav class="nav-menu" role="navigation">
+			<ul>
+				<li><a href="#">Beranda</a></li>
+				<li><a href="#">Tentang Kami</a></li>
+				<li><a href="#">Kontak</a></li>
+			</ul>
+		</nav>
+
+	
+
+	<main class="main-content" role="main" tabindex="0">
+		<h1>Judul utama</h1>
+
+		<p>Seorang pria dikabarkan meninggal dunia saat sedang bersepeda di kawasan Cimanggis, Depok. Saat itu, korban yang sedang mengayuh sepeda mendadak ambruk dan tak sadarkan diri di lokasi kejadian.</p>
+
+		<p>Ending the week with a deep dive into potentially one of the biggest mergers in Vietnam’s tech space - if it pushes through. Tiki and Sendo are arguably the two most notable Vietnamese ecommerce startups and they are thinking of joining forces to battle regional powerhouses Shopee and Lazada</p>
+
+		<img src="http://placekitten.com/200/300" alt="Kucing imut" />
+
+    <hr>
+		<footer class="comments">
+			<h2>Sub judul</h2>
+
+			<div role="comment" id="thread-1" data-author="chris">
+        <h3>Chris said</h3>
+        <p class="comment-text">I really think this moment could use more cowbell.</p>
+        <p><time datetime="2019-03-30T19:29">March 30 2019, 19:29</time></p>
+      </div>
+		</footer>
+    
+	</main>
+  
+  <form aria-label="Tambah komentar">
+    
+    <label for="nama">Nama</label>
+    <input name="nama" id="nama" aria-required="true" required>
+
+    <label for="komentar">Komentar</label>
+    <textarea name="comment" id="komentar" aria-required="true"></textarea>
+    
+    <input name="teserah" id="terserah" required>
+    
+    <button type="button">Tutup</button>
+    
+    <button role="button">Button</button>
+  </form>
+
+	<aside class="sidebar" role="complementary">
+		<h2>Artikel terbaru</h2>
+		<ul>
+			<li><a href="">Judul 1</a></li>
+			<li><a href="">Judul 2</a></li>
+			<li><a href="">Judul 3</a></li>
+		</ul>
+	</aside>
+  
+  <div class="popup" aria-live="assertive">
+    <h3>
+      Popup terbuka
+    </h3>
+    <button id="close-popup">Tutup popup</button>
+  </div>
+  
+  <button id="show-popup">
+    Popup
+  </button>
+
+	<footer role="content-info">
+		
+		<address>
+			Anda bisa mengontak saya langsung ke <a mailto="contact@html.com">contact@html.com</a>.
+		</address>
+	</footer>
+  
+  <script src="script.js"></script>
+  
+  <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  
+</body>
+</html>

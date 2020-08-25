@@ -1,0 +1,31 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.hidden {
+  display: none;
+}
+.hidden:focus {
+  display: block;
+}
+
+.popup {
+  display: none;
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.popup.show {
+  display: block;
+}
